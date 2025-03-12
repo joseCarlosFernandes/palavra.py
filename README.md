@@ -1,4 +1,4 @@
-Para utilizar o programa, baixe os arquivos e execute o menu.py na mesma pasta do restante
+Para utilizar o programa, baixe os arquivos e execute o "menu.py" na mesma pasta do restante
 
 A pasta "arquivos" corresponde a pasta onde serão enviados os arquivos .txt criados pelo programa 
 e os quais ele vai utilizar nas funções de Busca e Leitura/Edição
