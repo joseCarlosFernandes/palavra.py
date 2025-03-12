@@ -1,3 +1,6 @@
+O nome "palavra.py" é uma piada com o Microsoft Word, sendo "palavra" a tradução para "word".
+E como ambos manipulam texto, foi o unico nome que consegui pensar
+
 Para utilizar o programa, baixe os arquivos e execute o "menu.py" na mesma pasta do restante
 
 A pasta "arquivos" corresponde a pasta onde serão enviados os arquivos .txt criados pelo programa 
