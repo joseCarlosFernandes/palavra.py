@@ -38,4 +38,5 @@ botao_salvar.place(x=50, y=430)
 botao_sair = tk.Button(criador, text="Sair", command=criador.quit, width = 20, height= 3)
 botao_sair.place(x=305, y=430)
 
+criador.resizable(False, False)
 criador.mainloop()

@@ -64,5 +64,6 @@ labelR.place(x=130, y=150)
 btn_abrir = tk.Button(buscador, width=0, height=0)
 btn_abrir.place(x=160, y=280)
 
+buscador.resizable(False, False)
 buscador.mainloop()
 

@@ -38,5 +38,6 @@ else:
 	for i, arquivo in enumerate(arquivos):
 		btn_abrir = tk.Button(leitor, text=arquivo, command=lambda nome=arquivo: abrirArquivo(nome), width=20, height=3)
 		btn_abrir.place(x=180, y=60 + i * 40)
-
+		
+leitor.resizable(False, False)
 leitor.mainloop()
