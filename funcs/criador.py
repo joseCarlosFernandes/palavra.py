@@ -13,6 +13,9 @@ def salvaArquivo():
 	novoArquivo.write_text(conteudo)
 	criador.title("ARQUIVO CRIADO")
 
+	entradaTexto.delete("1.0", tk.END)
+	entradaNome.delete(0, tk.END)
+
 criador = tk.Tk()
 criador.title("Criador")
 criador.geometry("500x500+500+200")
@@ -23,8 +26,10 @@ labelN.place(x=50, y=30)
 entradaNome = tk.Entry(criador, width=40)
 entradaNome.place(x=50, y=50)
 
+labelT = tk.Label(criador, text="Insira o texto do Arquivo:")
+labelT.place(x=50, y=80)
+
 entradaTexto = tk.Text(criador, width=50, height=20)
-entradaTexto.insert("1.0", "Insira o texto do Arquivo")
 entradaTexto.place(x=50, y=100)
 
 botao_salvar = tk.Button(criador, text="Salvar", command=salvaArquivo, width = 20, height= 3)
