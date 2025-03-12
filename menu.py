@@ -16,7 +16,7 @@ def abreLeitor():
 
 janela = tk.Tk()
 janela.title("Palavra - Menu Principal")
-janela.geometry("500x500+500+200")
+janela.geometry("500x500+200+200")
 
 label = tk.Label(janela, text="Palavra - Menu de Ações")
 label.pack()
