@@ -32,7 +32,7 @@ btn_sair.place(x=340, y=400)
 arquivos = [arquivo.name for arquivo in diretorio.iterdir() if arquivo.is_file()]
 if not arquivos:
 	lableE = tk.Label(leitor, text="Erro, nenhum arquivo disponível")
-	lableE.place(x=180, y=50)
+	lableE.place(x=160, y=50)
 	btn_sair = tk.Button(leitor, text="Sair", command=leitor.quit, width=20, height=3)
 else:
 	for i, arquivo in enumerate(arquivos):
