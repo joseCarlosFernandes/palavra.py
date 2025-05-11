@@ -5,6 +5,7 @@ Para utilizar o programa, clone o repositório usando:
 ```sh
 $ git clone https://github.com/joseCarlosFernandes/palavra.py.git
 ```
+e execute o arquivo "menu.py"
 
 A pasta "arquivos" corresponde a pasta onde serão enviados os arquivos .txt criados pelo programa 
 e os quais ele vai utilizar nas funções de Busca e Leitura/Edição
